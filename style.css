@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.menu{
+    width: 85%;
+    height: 100px;
+    margin: 0px auto;
+    margin-right: -2rem;
+    margin-top: -14rem;
+}
+
+.menu ul{
+    padding: 0;
+    height: 50px;
+   
+
+}
+
+.menu ul li{
+    float: left;
+    background: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    width: 160px;
+    list-style: none;
+}
+
+.menu ul li ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.menu ul li:hover {
+    background: rgb(109, 133, 71);
+    transform: scale(0.9);
+}
+
+.menu ul li ul li{
+    position: relative;
+}
+
+.menu ul li ul li ul {
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    
+}
+
+
+.top img{
+    height: 100px;
+    margin-bottom: 5rem;
+}
+.text{
+    margin-left: 5rem;
+    margin-top: 4rem;
+    border-left: 5px solid rgb(230, 221, 221);
+
+    height: 20rem;
+    color: white;
+    padding-top: 7rem;
+}
+
+
+
+.sen{
+    
+    margin-left: 2rem;
+    
+    
+}
+
+.ven{
+    margin-left: 2rem;
+    
+}
+
+.iol{
+    margin-left: 2rem;
+   
+}
+
+.btn{
+    margin-left: 2rem;
+}
+
+
+
+.mid{
+    margin-top: 3rem;
+    
+}
+
+
+.lgl{
+    background: aliceblue;;
+}
+
+.well{
+    margin-top: 3rem;
+}
+
+.tye{
+    margin-left: 5rem;
+    
+}
+
+.your{
+    margin-left: 5rem;
+    margin-right: 8rem;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+
+.card img{
+    height: 200px;
+    
+   
+}
+
+
+.mid-bt{
+    margin-top: 8rem;
+    
+}
+
+.welcom{
+    margin-bottom: -6rem;
+}
+
+
+.mid-bt .card{
+    margin-top: 6rem;
+    
+}
+
+
+.mid-bt .card .btn{
+    margin-top: 2rem;
+}
+
+.y2{
+    background: transparent;
+    color: white;
+}
+
+
+.mid-bt .card .btn:hover{
+    background: transparent;
+}
+
+
+.mid-bt h2{
+    margin-bottom: -3rem;
+}
+
+
+.carry{
+    background: aliceblue;
+}
+
+.ter{
+    font-size: 25px;
+}
+
+.div .btn{
+    width: 6rem;
+}
+
+.div .btn:hover{
+    transform: scale(1.05);
+}
+
+
+.mill{
+    word-spacing: .13rem;
+}
+
+
+input{
+    width: 19rem;
+    margin-top: 2rem;
+    height: 2.1rem;
+}
+
+
+
+.twe{
+    width: 4rem;
+    margin-left: -.3rem;
+}
+
+.twe:hover{
+    background: transparent;
+}
+
+.yo .col-sm-2{
+    margin-bottom: -10rem;
+}
+
+
+
+nav{
+    background: transparent;
+}
+
+.yyy{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    color: rgb(43, 121, 43);
+}
+
+
+.yyy ul li {
+    color: white;
+    text-decoration: none;
+}
+
+
+.our{
+    background: white;
+}
+
+.our h2{
+    font-size: 30px;
+}
+
+
+.tour .card{
+    background: transparent;
+    color: white;
+}
+
+.tour h2{
+    font-size: 30px;
+    color: white;
+}
+
+
+.sure{
+    background: white;
+    margin-top: 5rem;
+}
+
+.did{
+    height: fit-content;
+}
